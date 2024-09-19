@@ -1,0 +1,56 @@
+{
+	"welcome": "Welcome!",
+	"darkMode": "Dark mode",
+	"lightMode": "Light mode",
+	"header": {
+		"about": "About",
+		"skills": "Skills",
+		"experiences": "Experiences",
+		"projects": "Projects",
+		"contact": "Contact"
+	},
+	"footer": {
+		"technologies": "React + Typescript + Tailwind",
+		"rights": "©2024 Yuri França. All rights reserved."
+	},
+	"home": {
+		"me": {
+			"introduction": "Hi, my name is",
+			"name": "Yuri França dos Anjos",
+			"profession": "Full Stack Developer"
+		},
+		"about": {
+			"title": "About Me",
+			"description": "I am a Full Stack Developer with over 3 years of experience, specialized in Java, React, Node.js + Express. My journey began in 2017, and since then, I have been focusing on delivering high-quality software solutions. I am always looking for challenges that allow me to improve my skills and contribute to innovations."
+		},
+		"skills": {
+			"title": "Skills"
+		},
+		"experiences": {
+			"title": "Experiences",
+			"gente": {
+				"company": "Gente Insurance",
+				"role": "Full Stack Developer",
+				"period": "08/2024 - 09/2024",
+				"text": "In my job, I participated in the migration of legacy platforms to new technologies, ensuring a quick transition. I performed continuous maintenance of systems, addressing bugs and improvements. I developed new features in the frontend and backend, and managed databases to efficiently manage information."
+			},
+			"cwi": {
+				"company": "CWI Software",
+				"role": "Full Stack Developer",
+				"period": "08/2020 - 06/2023",
+				"text": "In my job, I managed the migration of legacy platforms, maintained and improved existing systems, and developed new features in the frontend and backend. I worked with databases to optimize performance and used agile methodologies such as Scrum. I also implemented and managed batch processes using JavaBatch platforms.",
+				"clients": "Clients: CIEE-RS, Banco Votorantin"
+			}
+		},
+		"projects": {
+			"title": "Projects"
+		},
+		"contact": {
+			"title": "Contact",
+			"whatsapp": "Whatsapp",
+			"github": "Github",
+			"linkedin": "Linkedin",
+			"curriculum": "Resume"
+		}
+	}
+}

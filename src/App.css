@@ -1,0 +1,5 @@
+.app_container {
+	width: 100vw;
+	min-height: calc(100vh - 8rem);
+	background-color: var(--bg);
+}

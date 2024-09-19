@@ -1,0 +1,56 @@
+{
+	"welcome": "Bem vindo!",
+	"darkMode": "Modo escuro",
+	"lightMode": "Modo claro",
+	"header": {
+		"about": "Sobre",
+		"skills": "Tecnologias",
+		"experiences": "Experiências",
+		"projects": "Projetos",
+		"contact": "Contato"
+	},
+	"footer": {
+		"technologies": "React + Typescript + Tailwind",
+		"rights": "©2024 Yuri França. Todos os direitos reservados."
+	},
+	"home": {
+		"me": {
+			"introduction": "Olá, meu nome é",
+			"name": "Yuri França dos Anjos",
+			"profession": "Desenvolvedor Full Stack"
+		},
+		"about": {
+			"title": "Sobre Mim",
+			"description": "Sou Desenvolvedor Full Stack com mais de 3 anos de experiência, especializado em Java, React, Node.js + Express. Minha trajetória começou em 2017, e desde então, venho focando em entregar soluções de software de alta qualidade. Estou sempre em busca de desafios que me permitam aprimorar minhas habilidades e contribuir com inovações."
+		},
+		"skills": {
+			"title": "Tecnologias"
+		},
+		"experiences": {
+			"title": "Experiências",
+			"gente": {
+				"company": "Gente Seguradora",
+				"role": "Desenvolvedor Full Stack",
+				"period": "08/2024 - 09/2024",
+				"text": "No meu trabalho, participei da migração de plataformas legadas para novas tecnologias, garantindo uma transição rápida. Realizei manutenção contínua de sistemas, abordando bugs e melhorias. Desenvolvi novas funcionalidades no frontend e backend, e administrei bancos de dados para gerenciar informações de forma eficaz."
+			},
+			"cwi": {
+				"company": "CWI Software",
+				"role": "Desenvolvedor Full Stack",
+				"period": "08/2020 - 06/2023",
+				"text": "No meu trabalho, gerenciei a migração de plataformas legadas, sustentei e melhorei sistemas existentes, e desenvolvi novas funcionalidades no frontend e backend. Trabalhei com bancos de dados para otimizar a performance e utilizei metodologias ágeis como Scrum. Adotei práticas de CI/CD com Jenkins, participei da análise de requisitos, e executei testes unitários e de integração. Também implementei e gerenciei processos em lote usando plataformas JavaBatch.",
+				"clients": "Clientes: CIEE-RS, Banco Votorantin"
+			}
+		},
+		"projects": {
+			"title": "Projetos"
+		},
+		"contact": {
+			"title": "Contato",
+			"whatsapp": "Whatsapp",
+			"github": "Github",
+			"linkedin": "Linkedin",
+			"curriculum": "Curriculo"
+		}
+	}
+}

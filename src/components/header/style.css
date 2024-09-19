@@ -1,0 +1,32 @@
+.navmenu {
+	position: fixed;
+	right: 0;
+	background-color: var(--black);
+	box-shadow: 0 0 1px 2px var(--black);
+}
+
+@media (min-width: 768px) {
+	.navmenu {
+		display: none;
+	}
+}
+
+.navmenu > ul > li {
+	border-top: solid 2px var(--bg-contrast);
+}
+
+.navmenu > ul > li:hover {
+	background-color: var(--bg-contrast);
+}
+
+.navmenu > ul > li:hover button {
+	text-decoration: none;
+	color: var(--text);
+}
+
+.navmenu > ul > li > button {
+	width: 100%;
+	padding: 0.75rem 4rem;
+	display: block;
+	color: white;
+}

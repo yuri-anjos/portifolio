@@ -1,0 +1,27 @@
+.contact_options {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.contact_options a {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.25rem 1rem;
+	background-color: var(--secondary);
+	border-radius: 5px;
+	font-size: 1.5rem;
+}
+
+.contact_options a:hover {
+	filter: brightness(0.8);
+	transform: scale(1.1);
+}
+
+.contact_options a > * {
+	font-size: 1.5rem;
+}

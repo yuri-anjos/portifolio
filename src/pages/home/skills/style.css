@@ -1,0 +1,32 @@
+.skill_list {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	margin: 2rem auto;
+	justify-content: center;
+}
+
+@media (max-width: 390px) {
+	.skill_list {
+		width: 250px;
+	}
+}
+
+.skill_card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	width: 6rem;
+	height: 6rem;
+	background-color: var(--bg-contrast);
+	border-radius: 0.25rem;
+	border-bottom: 0.25rem solid var(--primary);
+	border-right: 0.25rem solid var(--primary);
+	transition: 0.3s;
+}
+
+.skill_card:hover {
+	transform: scale(1.1);
+}
