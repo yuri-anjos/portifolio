@@ -1,8 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { FaDownload, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import "./style.css";
+
+const cvs = {
+	pt: "./CV-PTBR-YURI-FRANCA.pdf",
+	en: "./CV-ENG-YURI-FRANCA.pdf",
+};
 export default function ContactSection() {
-	const { t } = useTranslation();
+	const { t, i18n } = useTranslation();
 
 	return (
 		<section id="nav-contact" className="fullscreen_container bg-app-bg-2">
@@ -26,7 +31,7 @@ export default function ContactSection() {
 					>
 						{t("home.contact.linkedin")} <FaLinkedin />
 					</a>
-					<a href="./CV-PTBR-YURI-FRANCA.pdf" download>
+					<a href={cvs.pt} download>
 						{t("home.contact.curriculum")} <FaDownload />
 					</a>
 				</div>
@@ -34,3 +39,4 @@ export default function ContactSection() {
 		</section>
 	);
 }
+
