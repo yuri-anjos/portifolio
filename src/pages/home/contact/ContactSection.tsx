@@ -31,7 +31,7 @@ export default function ContactSection() {
 					>
 						{t("home.contact.linkedin")} <FaLinkedin />
 					</a>
-					<a href={cvs.pt} download>
+					<a href={cvs[i18n.language as keyof typeof cvs]} download>
 						{t("home.contact.curriculum")} <FaDownload />
 					</a>
 				</div>
