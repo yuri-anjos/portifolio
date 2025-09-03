@@ -1,31 +1,46 @@
 import { useTranslation } from "react-i18next";
 import "./style.css";
 
-const technologiesGenteSeguradora = [
+const technologiesQintess = [
 	"Java",
 	"Spring Boot",
-	"React",
-	"Typescript",
-	"HTML",
-	"CSS",
-	"RESTful API",
+	"Angular",
+	"HTML/CSS",
+	"SQL",
+	"Docker",
+	"Kubernetes",
+	"Cloud Azure",
+	"DevOps",
+	"CI/CD",
 	"Git",
-	"Spring Framework",
-	"PostgreSQL",
+	"JUnit",
+	"SonarQube",
+	"ElasticSearch",
+	"Scrum",
 ];
+
 const technologiesCwi = [
 	"Java",
 	"Spring Boot",
-	"RESTful API",
-	"Microservices",
 	"Angular",
-	"Typescript",
-	"HTML",
-	"CSS",
-	"Git",
-	"MySQL",
-	"SQL Server",
 	"React",
+	"Node.js",
+	"HTML/CSS",
+	"SQL",
+	"NoSQL",
+	"Microserviços",
+	"Docker",
+	"Kubernetes",
+	"Cloud Azure",
+	"AWS",
+	"CI/CD",
+	"DevOps",
+	"Git",
+	"Jenkins",
+	"JUnit",
+	"Jest",
+	"ElasticSearch",
+	"Scrum",
 ];
 
 export default function ExperienceSection() {
@@ -36,14 +51,15 @@ export default function ExperienceSection() {
 			<div className="container flex flex-col gap-8">
 				<h3 className="text-center">{t("home.experiences.title")}</h3>
 				<article className="article_experience">
-					<h5>{t("home.experiences.gente.company")}</h5>
+					<h5>{t("home.experiences.qintess.company")}</h5>
 					<p>
-						{t("home.experiences.gente.role")}
-						<span className="experience_period">{t("home.experiences.gente.period")}</span>
+						{t("home.experiences.qintess.role")}
+						<span className="experience_period">{t("home.experiences.qintess.period")}</span>
 					</p>
-					<p className="text-xs">{t("home.experiences.gente.text")}</p>
+					<p className="text-xs">{t("home.experiences.qintess.text")}</p>
+					<p className="text-xs">{t("home.experiences.qintess.clients")}</p>
 					<ul className="experience_technologies_list">
-						{technologiesGenteSeguradora.map((technology) => (
+						{technologiesQintess.map((technology) => (
 							<li key={technology} className="experience_technology">
 								<small>{technology}</small>
 							</li>

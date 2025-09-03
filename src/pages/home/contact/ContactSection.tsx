@@ -3,8 +3,8 @@ import { FaDownload, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import "./style.css";
 
 const cvs = {
-	pt: "./CV-PTBR-YURI-FRANCA.pdf",
-	en: "./CV-ENG-YURI-FRANCA.pdf",
+	pt: "./DESENVOLVEDOR-FULLSTACK-YURI-FRANÇA.pdf",
+	en: "./FULLSTACK-DEVELOPER-YURI-FRANÇA.pdf",
 };
 export default function ContactSection() {
 	const { t, i18n } = useTranslation();
@@ -39,4 +39,3 @@ export default function ContactSection() {
 		</section>
 	);
 }
-

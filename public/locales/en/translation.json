@@ -21,25 +21,26 @@
 		},
 		"about": {
 			"title": "About Me",
-			"description": "I am a Full Stack Developer with over 3 years of experience, specialized in Java, React, Node.js + Express. My journey began in 2017, and since then, I have been focusing on delivering high-quality software solutions. I am always looking for challenges that allow me to improve my skills and contribute to innovations."
+			"description": "I am a Full Stack Developer with 5 years of experience in strategic projects. My main expertise is in Java Spring Boot and Angular, with strong skills in React, Node.js, and Cloud (AWS and Azure). I enjoy building scalable and high-quality applications, applying best practices, automated testing, and performance optimization. I have contributed to impactful national projects such as the National Register of Missing Persons (CNPD – Ministry of Justice)."
 		},
 		"skills": {
 			"title": "Skills"
 		},
 		"experiences": {
 			"title": "Experiences",
-			"gente": {
-				"company": "Gente Insurance",
+			"qintess": {
+				"company": "Qintess",
 				"role": "Full Stack Developer",
-				"period": "08/2024 - 09/2024",
-				"text": "In my job, I participated in the migration of legacy platforms to new technologies, ensuring a quick transition. I performed continuous maintenance of systems, addressing bugs and improvements. I developed new features in the frontend and backend, and managed databases to efficiently manage information."
+				"period": "10/2024 - present",
+				"text": "At Qintess, I worked as a Full Stack Developer on critical systems for the Ministry of Justice. I developed APIs and applications using Java Spring Boot and Angular, implemented CI/CD pipelines with Docker, Kubernetes, and Azure DevOps, and optimized SQL queries. I also introduced unit and integration testing to ensure greater security and reliability in deliveries.",
+				"clients": "Ministry of Justice - Brazil"
 			},
 			"cwi": {
 				"company": "CWI Software",
 				"role": "Full Stack Developer",
-				"period": "08/2020 - 06/2023",
-				"text": "In my job, I managed the migration of legacy platforms, maintained and improved existing systems, and developed new features in the frontend and backend. I worked with databases to optimize performance and used agile methodologies such as Scrum. I also implemented and managed batch processes using JavaBatch platforms.",
-				"clients": "Clients: CIEE-RS, Banco Votorantin"
+				"period": "08/2020 - 09/2024",
+				"text": "At CWI Software, I developed solutions for Banco Votorantim and CIEE-RS, working with Java, Spring Boot, Angular, and React in a microservices architecture. I handled messaging with Kafka, monitoring with Grafana and Prometheus, and integrations with SQL and NoSQL databases. I also worked on AWS and Azure cloud provisioning with DevOps practices, implemented automated tests, and participated in code reviews.",
+				"clients": "CIEE-RS, Banco Votorantin"
 			}
 		},
 		"projects": {

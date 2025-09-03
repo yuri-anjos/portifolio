@@ -21,24 +21,25 @@
 		},
 		"about": {
 			"title": "Sobre Mim",
-			"description": "Sou Desenvolvedor Full Stack com mais de 3 anos de experiência, especializado em Java, React, Node.js + Express. Minha trajetória começou em 2017, e desde então, venho focando em entregar soluções de software de alta qualidade. Estou sempre em busca de desafios que me permitam aprimorar minhas habilidades e contribuir com inovações."
+			"description": "Sou Desenvolvedor Full Stack com 5 anos de experiência em projetos estratégicos. Tenho especialização em Java Spring Boot e Angular, além de forte atuação com React, Node.js e Cloud (AWS e Azure). Gosto de construir aplicações escaláveis e de qualidade, aplicando boas práticas, automação de testes e foco em performance. Já participei de projetos de impacto nacional, como o Cadastro Nacional de Pessoas Desaparecidas (CNPD – Ministério da Justiça)."
 		},
 		"skills": {
 			"title": "Tecnologias"
 		},
 		"experiences": {
 			"title": "Experiências",
-			"gente": {
-				"company": "Gente Seguradora",
+			"qintess": {
+				"company": "Qintess",
 				"role": "Desenvolvedor Full Stack",
-				"period": "08/2024 - 09/2024",
-				"text": "No meu trabalho, participei da migração de plataformas legadas para novas tecnologias, garantindo uma transição rápida. Realizei manutenção contínua de sistemas, abordando bugs e melhorias. Desenvolvi novas funcionalidades no frontend e backend, e administrei bancos de dados para gerenciar informações de forma eficaz."
+				"period": "10/2024 - Presente",
+				"text": "Atuei como Desenvolvedor Full Stack na Qintess, contribuindo em sistemas críticos do Ministério da Justiça. Desenvolvi APIs e aplicações em Java Spring Boot e Angular, implementei pipelines de CI/CD com Docker, Kubernetes e Azure DevOps, e trabalhei na otimização de consultas SQL. Também implementei testes unitários e de integração para garantir maior segurança e qualidade nas entregas.",
+				"clients": "Ministério da Justiça - Brasil"
 			},
 			"cwi": {
 				"company": "CWI Software",
 				"role": "Desenvolvedor Full Stack",
-				"period": "08/2020 - 06/2023",
-				"text": "No meu trabalho, gerenciei a migração de plataformas legadas, sustentei e melhorei sistemas existentes, e desenvolvi novas funcionalidades no frontend e backend. Trabalhei com bancos de dados para otimizar a performance e utilizei metodologias ágeis como Scrum. Adotei práticas de CI/CD com Jenkins, participei da análise de requisitos, e executei testes unitários e de integração. Também implementei e gerenciei processos em lote usando plataformas JavaBatch.",
+				"period": "08/2020 - 09/2024",
+				"text": "Na CWI Software, desenvolvi soluções para o Banco Votorantim e o CIEE-RS, utilizando Java, Spring Boot, Angular e React em arquitetura de microsserviços. Trabalhei com mensageria via Kafka, monitoramento com Grafana e Prometheus, e integrações com bancos SQL e NoSQL. Também atuei em provisionamento em AWS e Azure com práticas DevOps, além de implementar testes automatizados e participar de code reviews.",
 				"clients": "Clientes: CIEE-RS, Banco Votorantin"
 			}
 		},
